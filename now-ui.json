@@ -1,0 +1,29 @@
+{
+	"components": {
+	    "x-882398-hh-comtest": {
+			"actions": [
+				{
+				  "name": "EVENT_FIRED",
+				  "description": "Will send message in current language",
+				  "label": "Send message",
+				  "payload": [
+				  {
+					"name": "value",
+					"label": "Value",
+					"description": "Description",
+					"defaultValue": false
+				  }]
+				}
+			],
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "AA test",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_882398_hh_comt_0"
+}

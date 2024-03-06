@@ -1,0 +1,39 @@
+{
+	"name": "hh-comtest",
+	"version": "0.0.1",
+	"private": false,
+	"description": "hhhhdescription",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"hh-comtest"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "24.0.1",
+		"@servicenow/cli-component-archetype": "24.0.1",
+		"@servicenow/library-translate": "latest",
+		"@servicenow/now-avatar": "latest",
+		"@servicenow/now-button": "latest",
+		"@servicenow/now-heading": "latest",
+		"@servicenow/now-icon": "latest",
+		"@servicenow/now-label-value": "latest",
+		"@servicenow/now-loader": "latest",
+		"@servicenow/now-toggle": "latest",
+		"@servicenow/sass-kit": "latest",
+		"@servicenow/sass-theme": "latest",
+		"@servicenow/ui-core": "latest",
+		"@servicenow/ui-effect-http": "latest",
+		"@servicenow/ui-renderer-snabbdom": "latest",
+		"realgrid": "^2.7.2"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "24.0.1",
+		"@servicenow/cli-component-archetype-dev": "24.0.1"
+	}
+}
